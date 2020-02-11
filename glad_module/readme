@@ -1,1 +1,2 @@
-Files for GLAD
+This folder contains glad as a python module. Some variants of this code was used in the experiments for the ICLR paper.  
+It also contains implementation of some other baselines that we compared against: ADMM, GISTA, Graphical Lasso (BCD)
