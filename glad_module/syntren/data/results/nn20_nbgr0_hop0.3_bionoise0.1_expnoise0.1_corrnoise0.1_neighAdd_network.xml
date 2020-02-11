@@ -1,0 +1,1635 @@
+<islab.bayesian.genenetwork.GeneNetwork>
+  <nodes>
+    <islab.bayesian.genenetwork.Node>
+      <geneNetwork reference="../../.."/>
+      <index>0</index>
+      <children/>
+      <parents>
+        <islab.bayesian.genenetwork.Node>
+          <geneNetwork reference="../../../../.."/>
+          <index>1</index>
+          <children>
+            <islab.bayesian.genenetwork.Node reference="../../../.."/>
+            <islab.bayesian.genenetwork.Node>
+              <geneNetwork reference="../../../../../../.."/>
+              <index>2</index>
+              <children/>
+              <parents>
+                <islab.bayesian.genenetwork.Node reference="../../../.."/>
+              </parents>
+              <type>
+                <pm class="islab.bayesian.LognormalNoise">
+                  <tfFunction>
+                    <offsetValue>0.0</offsetValue>
+                    <node reference="../../../.."/>
+                    <outer-class reference="../.."/>
+                  </tfFunction>
+                  <random>
+                    <engine class="cern.jet.random.engine.MersenneTwister">
+                      <mti>109</mti>
+                      <mt>
+                        <int>-641585329</int>
+                        <int>556871332</int>
+                        <int>478160556</int>
+                        <int>-1592680481</int>
+                        <int>-211925503</int>
+                        <int>430606082</int>
+                        <int>1689447148</int>
+                        <int>-1735978084</int>
+                        <int>-644425343</int>
+                        <int>-476805195</int>
+                        <int>-45111958</int>
+                        <int>-1468893584</int>
+                        <int>-1622550631</int>
+                        <int>-1743130720</int>
+                        <int>1791204944</int>
+                        <int>1655112351</int>
+                        <int>-1349288644</int>
+                        <int>-1209244496</int>
+                        <int>660631752</int>
+                        <int>-1121095937</int>
+                        <int>-1770540193</int>
+                        <int>-1390513194</int>
+                        <int>2129390070</int>
+                        <int>1524022953</int>
+                        <int>1289421735</int>
+                        <int>-1504829353</int>
+                        <int>2057586808</int>
+                        <int>1672652986</int>
+                        <int>-262968149</int>
+                        <int>1636560737</int>
+                        <int>655274244</int>
+                        <int>2085645859</int>
+                        <int>1224189728</int>
+                        <int>-660243249</int>
+                        <int>1512329477</int>
+                        <int>1671732033</int>
+                        <int>-399108575</int>
+                        <int>496067579</int>
+                        <int>1324206123</int>
+                        <int>-1856342286</int>
+                        <int>264519251</int>
+                        <int>-1197814422</int>
+                        <int>1200677747</int>
+                        <int>1746864152</int>
+                        <int>-1258220249</int>
+                        <int>-1013112801</int>
+                        <int>-1579995237</int>
+                        <int>-2132228198</int>
+                        <int>-618831729</int>
+                        <int>98900976</int>
+                        <int>-1634477636</int>
+                        <int>1600810082</int>
+                        <int>1653981642</int>
+                        <int>-372968552</int>
+                        <int>-732821102</int>
+                        <int>-1061045646</int>
+                        <int>-2071894062</int>
+                        <int>-1049003596</int>
+                        <int>-1182101512</int>
+                        <int>860627711</int>
+                        <int>-1244827691</int>
+                        <int>-1056779793</int>
+                        <int>-1949052805</int>
+                        <int>-422165608</int>
+                        <int>-1819813705</int>
+                        <int>2029884591</int>
+                        <int>1666748645</int>
+                        <int>-471403788</int>
+                        <int>1033052324</int>
+                        <int>-1924608679</int>
+                        <int>-1483553161</int>
+                        <int>365517573</int>
+                        <int>-1187872716</int>
+                        <int>-932216793</int>
+                        <int>1133327396</int>
+                        <int>-188966066</int>
+                        <int>558073201</int>
+                        <int>2073933324</int>
+                        <int>-1767711502</int>
+                        <int>2074689083</int>
+                        <int>-1993872298</int>
+                        <int>-379743965</int>
+                        <int>-1145324716</int>
+                        <int>-1208174399</int>
+                        <int>-1883877976</int>
+                        <int>1072743862</int>
+                        <int>-1251188209</int>
+                        <int>-1072777905</int>
+                        <int>1827035215</int>
+                        <int>-822420858</int>
+                        <int>-1328579878</int>
+                        <int>-1413200149</int>
+                        <int>-1969841675</int>
+                        <int>-1673764944</int>
+                        <int>-1022753244</int>
+                        <int>1083968579</int>
+                        <int>-1029017472</int>
+                        <int>2110939954</int>
+                        <int>257718920</int>
+                        <int>-790531202</int>
+                        <int>1985283649</int>
+                        <int>-1916674207</int>
+                        <int>-1602437075</int>
+                        <int>-1519038982</int>
+                        <int>-1617396453</int>
+                        <int>1227533811</int>
+                        <int>465376824</int>
+                        <int>1217663059</int>
+                        <int>-1189721542</int>
+                        <int>-771149894</int>
+                        <int>-1037547497</int>
+                        <int>-583783681</int>
+                        <int>-157350223</int>
+                        <int>-1726203290</int>
+                        <int>1707697841</int>
+                        <int>-1691455386</int>
+                        <int>274664214</int>
+                        <int>1822337614</int>
+                        <int>-2026674286</int>
+                        <int>666752644</int>
+                        <int>852258144</int>
+                        <int>-1991107323</int>
+                        <int>-622703824</int>
+                        <int>1103050768</int>
+                        <int>-1149781409</int>
+                        <int>-1069367239</int>
+                        <int>566508244</int>
+                        <int>1883376286</int>
+                        <int>-452451779</int>
+                        <int>99135513</int>
+                        <int>1253600216</int>
+                        <int>-1164650717</int>
+                        <int>-1626268963</int>
+                        <int>-551155030</int>
+                        <int>-1150896965</int>
+                        <int>1782698321</int>
+                        <int>1334571580</int>
+                        <int>-621073246</int>
+                        <int>-306525796</int>
+                        <int>-672111128</int>
+                        <int>1467089502</int>
+                        <int>514629336</int>
+                        <int>-1525318197</int>
+                        <int>-1682729890</int>
+                        <int>602752563</int>
+                        <int>-322217658</int>
+                        <int>1810124741</int>
+                        <int>-1109417527</int>
+                        <int>-1107023243</int>
+                        <int>1396101368</int>
+                        <int>217125453</int>
+                        <int>-1090383374</int>
+                        <int>701664093</int>
+                        <int>-2023975638</int>
+                        <int>-1020635385</int>
+                        <int>275266510</int>
+                        <int>-513493105</int>
+                        <int>422386273</int>
+                        <int>-960870250</int>
+                        <int>340076079</int>
+                        <int>1112013527</int>
+                        <int>-1162635746</int>
+                        <int>-1299151749</int>
+                        <int>-1931576775</int>
+                        <int>521169493</int>
+                        <int>-254634082</int>
+                        <int>1789020004</int>
+                        <int>-1696086831</int>
+                        <int>-88329447</int>
+                        <int>829790612</int>
+                        <int>-1910749180</int>
+                        <int>-1239534415</int>
+                        <int>-1313921456</int>
+                        <int>-1228575082</int>
+                        <int>-813149443</int>
+                        <int>-624831354</int>
+                        <int>-895610319</int>
+                        <int>486560348</int>
+                        <int>1245071248</int>
+                        <int>-588429081</int>
+                        <int>-1834203472</int>
+                        <int>-1950096565</int>
+                        <int>1132553222</int>
+                        <int>-275915553</int>
+                        <int>-1277526685</int>
+                        <int>215668812</int>
+                        <int>233101354</int>
+                        <int>239531455</int>
+                        <int>-1251874878</int>
+                        <int>-468069916</int>
+                        <int>-648477038</int>
+                        <int>775880877</int>
+                        <int>1437860945</int>
+                        <int>2103900591</int>
+                        <int>891967091</int>
+                        <int>1907012575</int>
+                        <int>-210507423</int>
+                        <int>-1850466627</int>
+                        <int>1593933578</int>
+                        <int>1711626905</int>
+                        <int>-1981884543</int>
+                        <int>1977649561</int>
+                        <int>679677394</int>
+                        <int>748508190</int>
+                        <int>1482356207</int>
+                        <int>-229573917</int>
+                        <int>199556630</int>
+                        <int>273479284</int>
+                        <int>1676877371</int>
+                        <int>-1527367996</int>
+                        <int>-1993597304</int>
+                        <int>154758627</int>
+                        <int>-1670308824</int>
+                        <int>-1452645940</int>
+                        <int>335535408</int>
+                        <int>1361897795</int>
+                        <int>-1134210997</int>
+                        <int>-92689931</int>
+                        <int>-2016854091</int>
+                        <int>-100770898</int>
+                        <int>-318653960</int>
+                        <int>-706825236</int>
+                        <int>-555040658</int>
+                        <int>851969972</int>
+                        <int>1754523399</int>
+                        <int>-253936603</int>
+                        <int>1173038545</int>
+                        <int>2073207902</int>
+                        <int>-1807005501</int>
+                        <int>566167975</int>
+                        <int>-1014671691</int>
+                        <int>1580204838</int>
+                        <int>-1599409007</int>
+                        <int>1606308765</int>
+                        <int>-1747291103</int>
+                        <int>-954217850</int>
+                        <int>1525184083</int>
+                        <int>-2014601217</int>
+                        <int>-441051252</int>
+                        <int>-1685630083</int>
+                        <int>1036332307</int>
+                        <int>1220767557</int>
+                        <int>161670113</int>
+                        <int>300934145</int>
+                        <int>378055883</int>
+                        <int>750202343</int>
+                        <int>1660703403</int>
+                        <int>514103429</int>
+                        <int>-232712697</int>
+                        <int>1222438148</int>
+                        <int>1596621827</int>
+                        <int>632380320</int>
+                        <int>-1274339677</int>
+                        <int>502154414</int>
+                        <int>616435173</int>
+                        <int>-1649341173</int>
+                        <int>1081673266</int>
+                        <int>-2131084247</int>
+                        <int>-1762174370</int>
+                        <int>1113563468</int>
+                        <int>921169553</int>
+                        <int>597590076</int>
+                        <int>660976661</int>
+                        <int>-706627959</int>
+                        <int>1741066865</int>
+                        <int>-1247514988</int>
+                        <int>1024848456</int>
+                        <int>1725399067</int>
+                        <int>-1224699189</int>
+                        <int>1240139647</int>
+                        <int>-1297175903</int>
+                        <int>765671552</int>
+                        <int>-1501314207</int>
+                        <int>1001942197</int>
+                        <int>-561855656</int>
+                        <int>-2057853932</int>
+                        <int>-1507971170</int>
+                        <int>-1098986788</int>
+                        <int>975133339</int>
+                        <int>-1980562</int>
+                        <int>-1945658933</int>
+                        <int>1360174003</int>
+                        <int>-689685756</int>
+                        <int>-1513136690</int>
+                        <int>-591079431</int>
+                        <int>-2017626616</int>
+                        <int>1087967954</int>
+                        <int>1624832534</int>
+                        <int>-350112608</int>
+                        <int>1300208663</int>
+                        <int>-1290404392</int>
+                        <int>-626393254</int>
+                        <int>-1944271396</int>
+                        <int>845279927</int>
+                        <int>815171839</int>
+                        <int>-1667715439</int>
+                        <int>1507792731</int>
+                        <int>817776080</int>
+                        <int>668340389</int>
+                        <int>755960707</int>
+                        <int>-1623809029</int>
+                        <int>487956802</int>
+                        <int>2051320900</int>
+                        <int>-187067790</int>
+                        <int>182120470</int>
+                        <int>569785248</int>
+                        <int>-192573730</int>
+                        <int>1069791911</int>
+                        <int>1387417404</int>
+                        <int>-694239710</int>
+                        <int>-1271289315</int>
+                        <int>-1012267069</int>
+                        <int>-1324225862</int>
+                        <int>572025950</int>
+                        <int>-854047719</int>
+                        <int>764174852</int>
+                        <int>1943685484</int>
+                        <int>-1578157230</int>
+                        <int>491738483</int>
+                        <int>-1764232362</int>
+                        <int>325165696</int>
+                        <int>68428632</int>
+                        <int>1189742048</int>
+                        <int>-41584527</int>
+                        <int>1142957656</int>
+                        <int>-2114967440</int>
+                        <int>-2060037904</int>
+                        <int>91976824</int>
+                        <int>-1547204171</int>
+                        <int>1414330044</int>
+                        <int>389236302</int>
+                        <int>-1546565178</int>
+                        <int>753907248</int>
+                        <int>-474854430</int>
+                        <int>-863530964</int>
+                        <int>1287820848</int>
+                        <int>1946579668</int>
+                        <int>-1981497480</int>
+                        <int>1953340500</int>
+                        <int>-1124085456</int>
+                        <int>1476190937</int>
+                        <int>-470710957</int>
+                        <int>-946155634</int>
+                        <int>1992463273</int>
+                        <int>1723241972</int>
+                        <int>-2061317987</int>
+                        <int>-799852282</int>
+                        <int>1078820856</int>
+                        <int>-1856410020</int>
+                        <int>-1717035235</int>
+                        <int>-1003633729</int>
+                        <int>2094170701</int>
+                        <int>-1745465820</int>
+                        <int>1529338383</int>
+                        <int>1602200661</int>
+                        <int>76427274</int>
+                        <int>-959706877</int>
+                        <int>-1756483776</int>
+                        <int>-1003615267</int>
+                        <int>1360312265</int>
+                        <int>-662101036</int>
+                        <int>-11526623</int>
+                        <int>-1246896384</int>
+                        <int>-1620947682</int>
+                        <int>-1672698735</int>
+                        <int>-166998454</int>
+                        <int>1713064722</int>
+                        <int>1996501007</int>
+                        <int>1298569161</int>
+                        <int>-1139552091</int>
+                        <int>2034174063</int>
+                        <int>979263123</int>
+                        <int>503433644</int>
+                        <int>1336040801</int>
+                        <int>-96551780</int>
+                        <int>-2083374544</int>
+                        <int>1797705040</int>
+                        <int>-1238384091</int>
+                        <int>274577117</int>
+                        <int>443115827</int>
+                        <int>-51274356</int>
+                        <int>984488790</int>
+                        <int>-1815533100</int>
+                        <int>1778609531</int>
+                        <int>1071362315</int>
+                        <int>1631967244</int>
+                        <int>-216180269</int>
+                        <int>1089965638</int>
+                        <int>1505413097</int>
+                        <int>-717963539</int>
+                        <int>-329080102</int>
+                        <int>-1529673585</int>
+                        <int>98355495</int>
+                        <int>1270407783</int>
+                        <int>-1811038602</int>
+                        <int>-1644329113</int>
+                        <int>42791099</int>
+                        <int>1276538194</int>
+                        <int>-349185863</int>
+                        <int>-1584053856</int>
+                        <int>804760625</int>
+                        <int>1021458588</int>
+                        <int>327096375</int>
+                        <int>1443698700</int>
+                        <int>1432018098</int>
+                        <int>1485800737</int>
+                        <int>1320448408</int>
+                        <int>1735309718</int>
+                        <int>1051171997</int>
+                        <int>1970922588</int>
+                        <int>-222736419</int>
+                        <int>-44427012</int>
+                        <int>-599318467</int>
+                        <int>-1837303598</int>
+                        <int>2130413573</int>
+                        <int>760069881</int>
+                        <int>-1541594930</int>
+                        <int>-2053713592</int>
+                        <int>-347532264</int>
+                        <int>-2086793021</int>
+                        <int>808439056</int>
+                        <int>92229981</int>
+                        <int>754744100</int>
+                        <int>-1623445495</int>
+                        <int>-788606809</int>
+                        <int>2055488541</int>
+                        <int>1204895234</int>
+                        <int>204803825</int>
+                        <int>218851968</int>
+                        <int>-1732246933</int>
+                        <int>-1383072044</int>
+                        <int>-1014363677</int>
+                        <int>-1181418748</int>
+                        <int>21930474</int>
+                        <int>-1690436114</int>
+                        <int>-1524514294</int>
+                        <int>-688401786</int>
+                        <int>429689792</int>
+                        <int>466617538</int>
+                        <int>-188135334</int>
+                        <int>-1167689403</int>
+                        <int>1286448475</int>
+                        <int>-1355486243</int>
+                        <int>-749532513</int>
+                        <int>-492525888</int>
+                        <int>-152951516</int>
+                        <int>-1791853482</int>
+                        <int>1873955661</int>
+                        <int>-1938489936</int>
+                        <int>-2051108514</int>
+                        <int>-1949954118</int>
+                        <int>908153615</int>
+                        <int>556967087</int>
+                        <int>-2029829975</int>
+                        <int>401749520</int>
+                        <int>2083994999</int>
+                        <int>-236656592</int>
+                        <int>908608672</int>
+                        <int>-339351698</int>
+                        <int>-586498945</int>
+                        <int>327699411</int>
+                        <int>-2120146548</int>
+                        <int>1051488024</int>
+                        <int>1377721054</int>
+                        <int>607200937</int>
+                        <int>-1929939717</int>
+                        <int>-1127423502</int>
+                        <int>-194322688</int>
+                        <int>426302201</int>
+                        <int>747025398</int>
+                        <int>557533616</int>
+                        <int>-1187571353</int>
+                        <int>-2013581453</int>
+                        <int>2121083183</int>
+                        <int>-1229502373</int>
+                        <int>-535462828</int>
+                        <int>-166919306</int>
+                        <int>1074623539</int>
+                        <int>-2027775840</int>
+                        <int>-343705805</int>
+                        <int>-77711926</int>
+                        <int>386961245</int>
+                        <int>-1385636553</int>
+                        <int>-680083523</int>
+                        <int>-2096333284</int>
+                        <int>-1812060542</int>
+                        <int>-775623124</int>
+                        <int>-127057752</int>
+                        <int>481528921</int>
+                        <int>-256094301</int>
+                        <int>-30342756</int>
+                        <int>-1881611948</int>
+                        <int>203342547</int>
+                        <int>1227367890</int>
+                        <int>1859567479</int>
+                        <int>-1013631172</int>
+                        <int>1095460961</int>
+                        <int>-305317857</int>
+                        <int>-933335871</int>
+                        <int>-506891170</int>
+                        <int>-1039882032</int>
+                        <int>-1346755732</int>
+                        <int>-1484019162</int>
+                        <int>182107689</int>
+                        <int>641182983</int>
+                        <int>-557667854</int>
+                        <int>1320381050</int>
+                        <int>-1777599266</int>
+                        <int>-1063963605</int>
+                        <int>1925550191</int>
+                        <int>2110183559</int>
+                        <int>1166624966</int>
+                        <int>-1598816485</int>
+                        <int>-260987073</int>
+                        <int>-224950926</int>
+                        <int>611725559</int>
+                        <int>1092082506</int>
+                        <int>-1039304907</int>
+                        <int>-1697617782</int>
+                        <int>-418543789</int>
+                        <int>607878549</int>
+                        <int>987177872</int>
+                        <int>824186014</int>
+                        <int>1395819085</int>
+                        <int>-1180144197</int>
+                        <int>-811923158</int>
+                        <int>-1388304693</int>
+                        <int>59101801</int>
+                        <int>632397662</int>
+                        <int>-711106980</int>
+                        <int>48923276</int>
+                        <int>1896042934</int>
+                        <int>1807147928</int>
+                        <int>-61421059</int>
+                        <int>-144858705</int>
+                        <int>-453615758</int>
+                        <int>1955200444</int>
+                        <int>-1950979921</int>
+                        <int>-1616957982</int>
+                        <int>-1770150999</int>
+                        <int>407152926</int>
+                        <int>1392258247</int>
+                        <int>1466374396</int>
+                        <int>-598673367</int>
+                        <int>1148969060</int>
+                        <int>60428685</int>
+                        <int>1932071679</int>
+                        <int>1637452959</int>
+                        <int>1117671549</int>
+                        <int>593311989</int>
+                        <int>-1394041239</int>
+                        <int>1594263252</int>
+                        <int>218422527</int>
+                        <int>1653119229</int>
+                        <int>-1776826040</int>
+                        <int>1431039858</int>
+                        <int>-572057875</int>
+                        <int>-105611057</int>
+                        <int>1202556805</int>
+                        <int>207617684</int>
+                        <int>-44140131</int>
+                        <int>-1020693480</int>
+                        <int>-532546702</int>
+                        <int>987787536</int>
+                        <int>334720713</int>
+                        <int>-1676557687</int>
+                        <int>1184767747</int>
+                        <int>168163906</int>
+                        <int>414251548</int>
+                        <int>-206029981</int>
+                        <int>576804419</int>
+                        <int>1281082756</int>
+                        <int>-501393247</int>
+                        <int>2125480100</int>
+                        <int>-1879647410</int>
+                        <int>1826103427</int>
+                        <int>1580854905</int>
+                        <int>1642181882</int>
+                        <int>-1147895960</int>
+                        <int>579317133</int>
+                        <int>-873628064</int>
+                        <int>-82900017</int>
+                        <int>-1652177783</int>
+                        <int>2057454590</int>
+                        <int>36470033</int>
+                        <int>1953079007</int>
+                        <int>-1351858791</int>
+                        <int>-1817211518</int>
+                        <int>1135632874</int>
+                        <int>-1868908789</int>
+                        <int>-1732708305</int>
+                        <int>-1730473236</int>
+                        <int>889908711</int>
+                        <int>-993851368</int>
+                        <int>-590827038</int>
+                        <int>236313282</int>
+                        <int>891169275</int>
+                        <int>-1791063261</int>
+                        <int>-286351989</int>
+                        <int>-1289319662</int>
+                        <int>-1860566212</int>
+                        <int>1865776490</int>
+                        <int>-752837506</int>
+                        <int>1442551460</int>
+                        <int>-454384867</int>
+                        <int>1389859439</int>
+                        <int>-2074057595</int>
+                        <int>1142332444</int>
+                        <int>-553806039</int>
+                        <int>-252787336</int>
+                        <int>1361271995</int>
+                        <int>-105129365</int>
+                        <int>1869707084</int>
+                        <int>-1883551139</int>
+                        <int>1947595946</int>
+                        <int>-1932065197</int>
+                        <int>-867225299</int>
+                        <int>-141568721</int>
+                        <int>5163406</int>
+                        <int>254505707</int>
+                        <int>-882829814</int>
+                        <int>288369802</int>
+                        <int>-617509167</int>
+                        <int>-144353341</int>
+                      </mt>
+                    </engine>
+                  </random>
+                  <normal>
+                    <mean>0.0</mean>
+                    <variance>0.010000000000000002</variance>
+                    <standardDeviation>0.1</standardDeviation>
+                    <cache>0.0</cache>
+                    <cacheFilled>false</cacheFilled>
+                    <SQRT__INV>3.989422804014327</SQRT__INV>
+                    <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../random/engine"/>
+                  </normal>
+                  <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                    <V0max>0.0</V0max>
+                    <V1max>0.5</V1max>
+                    <n>1.0</n>
+                    <Kh>0.5832060327206399</Kh>
+                  </provideMean>
+                  <stddev>0.1</stddev>
+                  <node reference="../../.."/>
+                </pm>
+                <name>DEFAULT_2</name>
+                <shortName>DEFAULT_2</shortName>
+              </type>
+              <nodeType>
+                <name>unknown</name>
+                <abbrev>U</abbrev>
+              </nodeType>
+              <name>mopA</name>
+              <maxExpression>15529.731718375588</maxExpression>
+              <xpos>-1</xpos>
+              <ypos>-1</ypos>
+            </islab.bayesian.genenetwork.Node>
+            <islab.bayesian.genenetwork.Node>
+              <geneNetwork reference="../../../../../../.."/>
+              <index>3</index>
+              <children/>
+              <parents>
+                <islab.bayesian.genenetwork.Node reference="../../../.."/>
+              </parents>
+              <type>
+                <pm class="islab.bayesian.LognormalNoise">
+                  <tfFunction>
+                    <offsetValue>0.0</offsetValue>
+                    <node reference="../../../.."/>
+                    <outer-class reference="../.."/>
+                  </tfFunction>
+                  <random reference="../../../../islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                  <normal>
+                    <mean>0.0</mean>
+                    <variance>0.010000000000000002</variance>
+                    <standardDeviation>0.1</standardDeviation>
+                    <cache>0.0</cache>
+                    <cacheFilled>false</cacheFilled>
+                    <SQRT__INV>3.989422804014327</SQRT__INV>
+                    <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                  </normal>
+                  <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                    <V0max>0.0</V0max>
+                    <V1max>0.5</V1max>
+                    <n>1.0</n>
+                    <Kh>0.8434345535133561</Kh>
+                  </provideMean>
+                  <stddev>0.1</stddev>
+                  <node reference="../../.."/>
+                </pm>
+                <name>DEFAULT_3</name>
+                <shortName>DEFAULT_3</shortName>
+              </type>
+              <nodeType reference="../../islab.bayesian.genenetwork.Node[2]/nodeType"/>
+              <name>htpG</name>
+              <maxExpression>2372.5591544588897</maxExpression>
+              <xpos>-1</xpos>
+              <ypos>-1</ypos>
+            </islab.bayesian.genenetwork.Node>
+            <islab.bayesian.genenetwork.Node>
+              <geneNetwork reference="../../../../../../.."/>
+              <index>5</index>
+              <children/>
+              <parents>
+                <islab.bayesian.genenetwork.Node reference="../../../.."/>
+              </parents>
+              <type>
+                <pm class="islab.bayesian.LognormalNoise">
+                  <tfFunction>
+                    <offsetValue>0.0</offsetValue>
+                    <node reference="../../../.."/>
+                    <outer-class reference="../.."/>
+                  </tfFunction>
+                  <random reference="../../../../islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                  <normal>
+                    <mean>0.0</mean>
+                    <variance>0.010000000000000002</variance>
+                    <standardDeviation>0.1</standardDeviation>
+                    <cache>0.0</cache>
+                    <cacheFilled>false</cacheFilled>
+                    <SQRT__INV>3.989422804014327</SQRT__INV>
+                    <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                  </normal>
+                  <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                    <V0max>0.0</V0max>
+                    <V1max>0.5</V1max>
+                    <n>1.0</n>
+                    <Kh>0.6037421823696417</Kh>
+                  </provideMean>
+                  <stddev>0.1</stddev>
+                  <node reference="../../.."/>
+                </pm>
+                <name>DEFAULT_5</name>
+                <shortName>DEFAULT_5</shortName>
+              </type>
+              <nodeType reference="../../islab.bayesian.genenetwork.Node[2]/nodeType"/>
+              <name>ibpAB</name>
+              <maxExpression>3007.12910475321</maxExpression>
+              <xpos>-1</xpos>
+              <ypos>-1</ypos>
+            </islab.bayesian.genenetwork.Node>
+          </children>
+          <parents>
+            <islab.bayesian.genenetwork.Node>
+              <geneNetwork reference="../../../../../../.."/>
+              <index>4</index>
+              <children>
+                <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                <islab.bayesian.genenetwork.Node reference="../.."/>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>6</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>1.0</n>
+                        <Kh>1.1327635364788207</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_6</name>
+                    <shortName>DEFAULT_6</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>ecfABC</name>
+                  <maxExpression>9784.779208302129</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>7</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>1.0</n>
+                        <Kh>0.5554668211079568</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_7</name>
+                    <shortName>DEFAULT_7</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>ecfH</name>
+                  <maxExpression>4411.526121022443</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>8</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>1.0</n>
+                        <Kh>0.6691865073233163</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_8</name>
+                    <shortName>DEFAULT_8</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>fkpA</name>
+                  <maxExpression>152.83478844413375</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>11</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>3.0</n>
+                        <Kh>0.7470755816038875</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_11</name>
+                    <shortName>DEFAULT_11</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>xprB_dsbC_recJ</name>
+                  <maxExpression>2907.706437286065</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>12</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>1.0</n>
+                        <Kh>0.36324924800635267</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_12</name>
+                    <shortName>DEFAULT_12</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>lpxDA_fabZ</name>
+                  <maxExpression>15542.556707969748</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+              </children>
+              <parents>
+                <islab.bayesian.genenetwork.Node reference="../.."/>
+              </parents>
+              <type>
+                <pm class="islab.bayesian.LognormalNoise">
+                  <tfFunction>
+                    <offsetValue>0.0</offsetValue>
+                    <node reference="../../../.."/>
+                    <outer-class reference="../.."/>
+                  </tfFunction>
+                  <random reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                  <normal>
+                    <mean>0.0</mean>
+                    <variance>0.0</variance>
+                    <standardDeviation>0.0</standardDeviation>
+                    <cache>0.0</cache>
+                    <cacheFilled>false</cacheFilled>
+                    <SQRT__INV>0.0</SQRT__INV>
+                    <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                  </normal>
+                  <provideMean class="islab.bayesian.ConstantModel">
+                    <constant>0.8301061957608908</constant>
+                  </provideMean>
+                  <stddev>0.0</stddev>
+                  <node reference="../../.."/>
+                </pm>
+                <name>external_4</name>
+                <shortName>external_4</shortName>
+              </type>
+              <nodeType>
+                <name>external-condition</name>
+                <abbrev>E</abbrev>
+              </nodeType>
+              <name>rpoE_rseABC</name>
+              <maxExpression>4335.30239131278</maxExpression>
+              <xpos>-1</xpos>
+              <ypos>-1</ypos>
+            </islab.bayesian.genenetwork.Node>
+            <islab.bayesian.genenetwork.Node>
+              <geneNetwork reference="../../../../../../.."/>
+              <index>9</index>
+              <children>
+                <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                <islab.bayesian.genenetwork.Node reference="../.."/>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>10</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>1.0</n>
+                        <Kh>0.6943144416935618</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_10</name>
+                    <shortName>DEFAULT_10</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>araE</name>
+                  <maxExpression>1946.4487762244325</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>13</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>1.0</n>
+                        <Kh>0.4326489825940181</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_13</name>
+                    <shortName>DEFAULT_13</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>ppiA</name>
+                  <maxExpression>3454.9066194367574</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>15</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneRepressorCoop">
+                        <V0max>0.5</V0max>
+                        <n>1.0</n>
+                        <Kh>0.8912140253375673</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_15</name>
+                    <shortName>DEFAULT_15</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>ptsHI_crr</name>
+                  <maxExpression>1202.7487754522226</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>16</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>2.0</n>
+                        <Kh>0.4048928410051578</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_16</name>
+                    <shortName>DEFAULT_16</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>cirA</name>
+                  <maxExpression>3984.3546947174837</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>17</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneRepressorCoop">
+                        <V0max>0.5</V0max>
+                        <n>2.0</n>
+                        <Kh>1.0316682112037767</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_17</name>
+                    <shortName>DEFAULT_17</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>cyaA</name>
+                  <maxExpression>58.62213255130319</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>18</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneRepressorCoop">
+                        <V0max>0.5</V0max>
+                        <n>1.0</n>
+                        <Kh>0.5865604212753364</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_18</name>
+                    <shortName>DEFAULT_18</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>speC</name>
+                  <maxExpression>814.2734119946797</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+                <islab.bayesian.genenetwork.Node>
+                  <geneNetwork reference="../../../../../../../../.."/>
+                  <index>19</index>
+                  <children/>
+                  <parents>
+                    <islab.bayesian.genenetwork.Node reference="../../../.."/>
+                  </parents>
+                  <type>
+                    <pm class="islab.bayesian.LognormalNoise">
+                      <tfFunction>
+                        <offsetValue>0.0</offsetValue>
+                        <node reference="../../../.."/>
+                        <outer-class reference="../.."/>
+                      </tfFunction>
+                      <random reference="../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                      <normal>
+                        <mean>0.0</mean>
+                        <variance>0.010000000000000002</variance>
+                        <standardDeviation>0.1</standardDeviation>
+                        <cache>0.0</cache>
+                        <cacheFilled>false</cacheFilled>
+                        <SQRT__INV>3.989422804014327</SQRT__INV>
+                        <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                      </normal>
+                      <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+                        <V0max>0.0</V0max>
+                        <V1max>0.5</V1max>
+                        <n>4.0</n>
+                        <Kh>0.46237056731994775</Kh>
+                      </provideMean>
+                      <stddev>0.1</stddev>
+                      <node reference="../../.."/>
+                    </pm>
+                    <name>DEFAULT_19</name>
+                    <shortName>DEFAULT_19</shortName>
+                  </type>
+                  <nodeType reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+                  <name>araBAD</name>
+                  <maxExpression>2846.735776264363</maxExpression>
+                  <xpos>-1</xpos>
+                  <ypos>-1</ypos>
+                </islab.bayesian.genenetwork.Node>
+              </children>
+              <parents>
+                <islab.bayesian.genenetwork.Node reference="../.."/>
+              </parents>
+              <type>
+                <pm class="islab.bayesian.LognormalNoise">
+                  <tfFunction>
+                    <offsetValue>0.0</offsetValue>
+                    <node reference="../../../.."/>
+                    <outer-class reference="../.."/>
+                  </tfFunction>
+                  <random reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                  <normal>
+                    <mean>0.0</mean>
+                    <variance>0.0</variance>
+                    <standardDeviation>0.0</standardDeviation>
+                    <cache>0.0</cache>
+                    <cacheFilled>false</cacheFilled>
+                    <SQRT__INV>0.0</SQRT__INV>
+                    <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                  </normal>
+                  <provideMean class="islab.bayesian.ConstantModel">
+                    <constant>0.8615376481320709</constant>
+                  </provideMean>
+                  <stddev>0.0</stddev>
+                  <node reference="../../.."/>
+                </pm>
+                <name>external_9</name>
+                <shortName>external_9</shortName>
+              </type>
+              <nodeType reference="../../islab.bayesian.genenetwork.Node/nodeType"/>
+              <name>crp</name>
+              <maxExpression>606.2473965196851</maxExpression>
+              <xpos>-1</xpos>
+              <ypos>-1</ypos>
+            </islab.bayesian.genenetwork.Node>
+            <islab.bayesian.genenetwork.Node>
+              <geneNetwork reference="../../../../../../.."/>
+              <index>14</index>
+              <children>
+                <islab.bayesian.genenetwork.Node reference="../../../.."/>
+              </children>
+              <parents/>
+              <type>
+                <pm class="islab.bayesian.LognormalNoise">
+                  <tfFunction>
+                    <offsetValue>0.0</offsetValue>
+                    <node reference="../../../.."/>
+                    <outer-class reference="../.."/>
+                  </tfFunction>
+                  <random reference="../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+                  <normal>
+                    <mean>0.0</mean>
+                    <variance>0.0</variance>
+                    <standardDeviation>0.0</standardDeviation>
+                    <cache>0.0</cache>
+                    <cacheFilled>false</cacheFilled>
+                    <SQRT__INV>0.0</SQRT__INV>
+                    <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+                  </normal>
+                  <provideMean class="islab.bayesian.ConstantModel">
+                    <constant>0.20858526206575334</constant>
+                  </provideMean>
+                  <stddev>0.0</stddev>
+                  <node reference="../../.."/>
+                </pm>
+                <name>external_14</name>
+                <shortName>external_14</shortName>
+              </type>
+              <nodeType reference="../../islab.bayesian.genenetwork.Node/nodeType"/>
+              <name>dnaA</name>
+              <maxExpression>859.6445296143362</maxExpression>
+              <xpos>-1</xpos>
+              <ypos>-1</ypos>
+            </islab.bayesian.genenetwork.Node>
+          </parents>
+          <type>
+            <pm class="islab.bayesian.LognormalNoise">
+              <tfFunction>
+                <offsetValue>0.0</offsetValue>
+                <node reference="../../../.."/>
+                <outer-class reference="../.."/>
+              </tfFunction>
+              <random reference="../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+              <normal>
+                <mean>0.0</mean>
+                <variance>0.010000000000000002</variance>
+                <standardDeviation>0.1</standardDeviation>
+                <cache>0.0</cache>
+                <cacheFilled>false</cacheFilled>
+                <SQRT__INV>3.989422804014327</SQRT__INV>
+                <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+              </normal>
+              <provideMean class="islab.bayesian.genenetwork.NRegulatorsMM">
+                <V0max>0.2</V0max>
+                <FoldActivation>
+                  <double>20.0</double>
+                  <double>20.0</double>
+                  <double>0.0</double>
+                </FoldActivation>
+                <Vmax>
+                  <double>4.0</double>
+                  <double>4.0</double>
+                  <double>0.0</double>
+                </Vmax>
+                <Keq>
+                  <double>1.0297250439212964</double>
+                  <double>0.5882100160341424</double>
+                  <double>0.9509769564597157</double>
+                </Keq>
+                <type>
+                  <int>1</int>
+                  <int>1</int>
+                  <int>0</int>
+                </type>
+                <numReg>3</numReg>
+              </provideMean>
+              <stddev>0.1</stddev>
+              <node reference="../../.."/>
+            </pm>
+            <name>DEFAULT_1</name>
+            <shortName>DEFAULT_1</shortName>
+          </type>
+          <nodeType reference="../children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+          <name>rpoH</name>
+          <maxExpression>4264.230072284811</maxExpression>
+          <xpos>-1</xpos>
+          <ypos>-1</ypos>
+        </islab.bayesian.genenetwork.Node>
+      </parents>
+      <type>
+        <pm class="islab.bayesian.LognormalNoise">
+          <tfFunction>
+            <offsetValue>0.0</offsetValue>
+            <node reference="../../../.."/>
+            <outer-class reference="../.."/>
+          </tfFunction>
+          <random reference="../../../parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[2]/type/pm/random"/>
+          <normal>
+            <mean>0.0</mean>
+            <variance>0.010000000000000002</variance>
+            <standardDeviation>0.1</standardDeviation>
+            <cache>0.0</cache>
+            <cacheFilled>false</cacheFilled>
+            <SQRT__INV>3.989422804014327</SQRT__INV>
+            <randomGenerator class="cern.jet.random.engine.MersenneTwister" reference="../../../../parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[2]/type/pm/random/engine"/>
+          </normal>
+          <provideMean class="islab.bayesian.genenetwork.OneActivatorCoop">
+            <V0max>0.0</V0max>
+            <V1max>0.5</V1max>
+            <n>1.0</n>
+            <Kh>1.0384118012251964</Kh>
+          </provideMean>
+          <stddev>0.1</stddev>
+          <node reference="../../.."/>
+        </pm>
+        <name>DEFAULT_0</name>
+        <shortName>DEFAULT_0</shortName>
+      </type>
+      <nodeType reference="../parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[2]/nodeType"/>
+      <name>lon</name>
+      <maxExpression>2369.5182202478545</maxExpression>
+      <xpos>-1</xpos>
+      <ypos>-1</ypos>
+    </islab.bayesian.genenetwork.Node>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[2]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[3]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[4]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[3]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[4]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[5]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[3]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[6]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[7]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[4]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[3]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[5]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[6]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[7]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[8]"/>
+    <islab.bayesian.genenetwork.Node reference="../islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[9]"/>
+  </nodes>
+  <edges>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType>
+        <name>activator</name>
+        <abbrev>A</abbrev>
+      </edgeType>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[2]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[3]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[4]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[3]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[4]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[5]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[6]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/children/islab.bayesian.genenetwork.Node[7]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType>
+        <name>repressor</name>
+        <abbrev>R</abbrev>
+      </edgeType>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[3]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[4]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge[13]/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[5]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[6]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge[13]/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[7]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge[13]/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[8]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[2]/children/islab.bayesian.genenetwork.Node[9]"/>
+    </islab.bayesian.genenetwork.Edge>
+    <islab.bayesian.genenetwork.Edge>
+      <edgeType reference="../../islab.bayesian.genenetwork.Edge[13]/edgeType"/>
+      <fromNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node[3]"/>
+      <toNode reference="../../../nodes/islab.bayesian.genenetwork.Node/parents/islab.bayesian.genenetwork.Node"/>
+    </islab.bayesian.genenetwork.Edge>
+  </edges>
+  <correlatedWith>
+    <int>-1</int>
+    <int>0</int>
+    <int>-1</int>
+  </correlatedWith>
+  <slopes>
+    <double>0.0</double>
+    <double>-1.0</double>
+    <double>0.0</double>
+  </slopes>
+  <correlationNoiseSD>0.1</correlationNoiseSD>
+</islab.bayesian.genenetwork.GeneNetwork>

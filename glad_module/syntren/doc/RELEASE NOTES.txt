@@ -1,0 +1,10 @@
+1.2 (2007-06-08):
+IMPORTANT: some significant changes have occured which are _not_ downwards compatible:
+- file naming conventions have changed: the gene expression dataset now has the suffix "_unnormalized_dataset.txt". For backwards compatibility, the (old) normalized dataset with suffix "_normalized_dataset.txt" is also given.
+- dataset format is changed to the more conventional genes by conditions format.
+- More realistic datasets (introduction of a maximum expression value per gene, improving the realism of the data and removing some artifacts from MA-plots)
+OTHER:
+- command line interface is extended: users can now specifiy their own external input file (an example is provided in the data/samples folder) and for example generate a concentration series experiment.
+
+1.1.3 (2006-03-23):
+A command line interface has been added, which can be launched with syntren_cli.bat or syntren_cli.sh for Windows and Linux users respectively. The command line interface requires an .ini file. Sample ini files can be found in ./data/samples/*.ini. 

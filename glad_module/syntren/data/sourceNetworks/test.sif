@@ -1,0 +1,5 @@
+g1	re	g2
+g2	re	g4
+g1	ac	g3
+g4	ac	g5
+g5	du	g3

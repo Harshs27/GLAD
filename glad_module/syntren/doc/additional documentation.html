@@ -1,0 +1,49 @@
+<html>
+<body>
+
+<h1>Additional SynTReN documentation</h1>
+date: 2007-05-15
+<p>
+
+<h2>Important classes</h2>
+The most relevant classes are:<br>
+
+<ul>
+  <li><b>islab/bayesian/genenetwork/generation/NetworkGeneratorCLI.java:</b> this is the command line invokation of SynTReN</li>
+  <li><b>islab/bayesian/genenetwork/generation/NetworkGeneratorGUI.java:</b> this is the GUI invokation of SynTReN</li>
+  <li><b>islab/bayesian/genenetwork/generation/IniSettings.java:</b> this class holds the settings from the ini-file which is used by the CLI (see further). You may want to directly set the values in this class and then call the run() method of NetworkGeneratorCLI</li>
+</ul>
+
+<h3>NetworkGeneratorCLI</h3>
+The command line takes one argument: an '.ini' file where all the settings are saved and generates a number of files in a folder which is specified in the ini file. The main() method is in fact a wrapper for the run() method, which you can use as an API call to the command line interface.
+
+<h2>Generated files using both CLI and GUI</h2>
+all generated files are saved in the output folder which is specified in the ini file and apply to the following template:<br>
+<i>nn&lt;v&gt;_nbgr&lt;w&gt;_hop&lt;x&gt;_bionoise&lt;y&gt;_expnoise&lt;z&gt;_(neigh|clust)Add_((unnormalized|maxExpr1)_dataset|external|network).(txt|sif|xml)</i>
+<p>
+Note: one exception to this rule: if the ini-field 'createGeneNetwork' is true, then the resulting xml file is <b>saved</b> to the location defined in 'GeneNetworkXMLFile'. When the field is false, the xml file is <b>read</b> from this location.
+
+<ul>
+<li><b><i>v</i></b>: the number of nodes of the 'foreground' network</li>
+<li><b><i>w</i></b>: the number of nodes of the 'background' network</li>
+<li><b><i>x</i></b>: the probability that an interaction is 'complex'</li>
+<li><b><i>y</i></b>: the amount of biological noise</li>
+<li><b><i>z</i></b>: the amount of experimental noise</li>
+<li><b><i>(neigh|clust)</i></b>: neighbour addition or cluster addition method</li>
+<li><b><i>(unnormalized|maxExpr1)</i></b>: the 'unnormalized' dataset should be used preferably. 'maxExpr1' is written mostly for downwards compatibility. The expression values of the maxExpr1 dataset are limited to the internal 0..1 range(v1.1.3 and prior), whereas the expression values of the unnormalized dataset are now multiplied with a maximum expression value per gene.</li>
+<li><b><i>(dataset|external|network)</i></b>: the dataset (tab-delimited), the set of external nodes and complete description of the network (both in xml and sif)</li>
+</ul>
+
+
+<h2>Ini-files</h2>
+The ini-files have a somewhat complex structure due to historical reasons. Several examples of ini files are included in the folder 'data/samples'. 
+
+<ul>
+  <li>sampleIniFile.ini: contains all available parameters</li>
+  <li>sampleIniFile1_createGeneNetwork.ini: ini file which selects a subnetwork from the <i>E. coli</i> network and generates a gene regulatory network with interactions and noise.</li>
+  <li>sampleIniFile2_generateDataRandomExternals.ini: generates a gene expression dataset from the gene network which was generated in the previous ini file, using random values for the external conditions (meaning that the genes linked to those external conditions get a random value between 0 and 1).</li>
+  <li>sampleIniFile3_generateDataPredefinedExternals.ini: generate a dataset using the complete <i>E. coli</i> network, given a predefined set of external inputs and with the external input values for the different experimental conditions specified in 'externalsFile.txt'</li>
+</ul>
+
+</body>
+</html>
