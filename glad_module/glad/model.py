@@ -5,8 +5,6 @@ import torch.nn.functional as F
 from torch.optim.lr_scheduler import LambdaLR, StepLR, MultiStepLR, ExponentialLR, ReduceLROnPlateau
 import numpy as np
 
-
-
 class threshold_NN_lambda_single_model(torch.nn.Module): # entrywise thresholding
     def __init__(self, L, rho_init, lambda_init, theta_init_offset, gamma_init, D, nF, H, USE_CUDA=False): # initializing all the weights here
         super(threshold_NN_lambda_single_model, self).__init__() # initializing the nn.module

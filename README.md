@@ -4,7 +4,7 @@ GLAD: Learning Sparse Graph Recovery (ICLR 2020 - https://openreview.net/forum?i
 # Installation
 Setup the environment - `setup.sh` or use the `environment.yml` file.  
 
-# notebooks  
+# Start with a simple example - notebooks  
 Self contained GLAD code with a minimalist working example.
 
 # glad module

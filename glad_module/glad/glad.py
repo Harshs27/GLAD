@@ -1,8 +1,8 @@
 #! /usr/bin/python -u
 import argparse, random
-from expts_glad.create_GGM import create_MN_vary_w
+from glad_module.create_GGM import create_MN_vary_w
 
-from expts_glad.glad.model import threshold_NN_lambda_single_model
+from glad_module.glad.model import threshold_NN_lambda_single_model
 import torch, scipy, copy
 import networkx as nx
 from torch.autograd import Variable
@@ -11,8 +11,8 @@ import torch.nn.functional as F
 from torch.optim.lr_scheduler import LambdaLR, StepLR, MultiStepLR, ExponentialLR, ReduceLROnPlateau
 import numpy as np 
 from scipy.linalg import sqrtm
-from expts_glad import metrics
-from expts_glad.torch_sqrtm import MatrixSquareRoot
+from glad_module import metrics
+from glad_module.torch_sqrtm import MatrixSquareRoot
 import matplotlib.pyplot as plt
 import time
 
@@ -93,7 +93,8 @@ parser.add_argument('--H', type=int, default=5,
                     help='Hidden layer size of NN rho')
 
 
-args = parser.parse_args()
+# args = parser.parse_args()
+args, unknown = parser.parse_known_args()
 
 # Global Variables
 USE_CUDA = False
