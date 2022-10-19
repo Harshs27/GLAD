@@ -1,5 +1,5 @@
 ## UPDATE
-We have developed an unsupervised version called `uGLAD`: [paper](<https://arxiv.org/abs/2205.11610>). The code is available here: [github](https://github.com/Harshs27/uGLAD).
+We have developed an unsupervised version called `uGLAD`: [paper](<https://arxiv.org/abs/2205.11610>). The code is available here: [github](https://github.com/Harshs27/uGLAD). This code is user-friendly and follows the function signature similar to sklearn glasso package. We will appreciate any pull-requests or improvement suggestions that will help with wider adoption. Thanks!
 
 -------------------
 # GLAD
