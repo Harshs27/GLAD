@@ -1,3 +1,7 @@
+## UPDATE
+We have developed an unsupervised version called `uGLAD`: [paper](<https://arxiv.org/abs/2205.11610>). The code is available here: [github](https://github.com/Harshs27/uGLAD).
+
+-------------------
 # GLAD
 GLAD: Learning Sparse Graph Recovery (ICLR 2020 - https://openreview.net/forum?id=BkxpMTEtPB)
 
